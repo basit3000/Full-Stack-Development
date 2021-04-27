@@ -1,0 +1,51 @@
+body {
+    background-image: url(zebra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: lightcyan;
+}
+
+h1, h2 {
+    color: chartreuse;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+/* h2 {
+    color: rgb(0, 255, 0);
+    text-shadow: 1px 1px 3px darkmagenta;
+    text-align: left;
+} */
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: auto;
+}
+
+#triangle {
+    color: purple;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px 3px black;
+}
+
+.container {
+    background: linear-gradient(to right, #00ccff, #b3f0ff);
+    box-shadow: 3px 5px 3px black;
+    text-align: left;
+}
+
+.borderImg {
+    text-align: left;
+    border: 10px solid red;
+}
+ul li {
+    color: white;
+    font-size: 20px;
+}
+
+ul > li {
+    color: yellow;
+}
